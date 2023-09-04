@@ -1,5 +1,5 @@
 
-class Solution {
+class q1502 {
     public boolean canMakeArithmeticProgression(int[] arr) {
         int n = arr.length;  
         int temp = 0;  

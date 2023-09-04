@@ -1,5 +1,5 @@
 
-class Solution {
+class q1318 {
     public String bitwiseor(int a, int b){
         
         return Integer.toBinaryString((a|b));

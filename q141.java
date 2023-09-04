@@ -1,12 +1,8 @@
-
-
-import java.util.*;
 public class q141  extends ListNode{
 
 
     q141(int x) {
         super(x);
-        //TODO Auto-generated constructor stub
     }
 
     public boolean hasCycle(ListNode head) {
