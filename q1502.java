@@ -1,4 +1,4 @@
-package PracticeCode.leetcode.q1502;
+
 class Solution {
     public boolean canMakeArithmeticProgression(int[] arr) {
         int n = arr.length;  

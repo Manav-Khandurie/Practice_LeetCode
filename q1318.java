@@ -1,4 +1,4 @@
-package PracticeCode.leetcode.q1318;
+
 class Solution {
     public String bitwiseor(int a, int b){
         
