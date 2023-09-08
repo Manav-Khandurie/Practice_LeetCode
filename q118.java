@@ -3,7 +3,10 @@ class Solution {
     //here java 8 sosent support List.Of
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lst=new ArrayList<List<Integer>>();
-        lst.add(List.of(1)); 
+        //lst.add(List.of(1)); 
+        List<Integer> ls1=new ArrayList<>();
+        ls1.add(1);
+        lst.add(ls1);
         int ele;
         for(int i=1;i<numRows;i++){
             List<Integer> ls=new ArrayList<>();
