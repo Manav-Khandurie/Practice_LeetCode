@@ -1,6 +1,6 @@
 import java.util.*;
 class Solution {
-
+    //here java 8 sosent support List.Of
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lst=new ArrayList<List<Integer>>();
         lst.add(List.of(1)); 
