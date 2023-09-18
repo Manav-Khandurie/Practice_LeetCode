@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class q118 {
     //here java 8 sosent support List.Of
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lst=new ArrayList<List<Integer>>();

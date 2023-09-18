@@ -1,5 +1,5 @@
-import java.util.*;
-class Solution {
+//import java.util.*;
+class q443 {
     public int compress(char[] chars) {
         int count=1;char search=chars[0];
         String s="";

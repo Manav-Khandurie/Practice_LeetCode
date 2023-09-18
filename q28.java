@@ -1,8 +1,8 @@
-class Solution {
+class q28 {
     public int strStr(String haystack, String needle) {
-        int cap=needle.length();
-        int n=haystack.length();
-        int i=0;
+        // int cap=needle.length();
+        // int n=haystack.length();
+        // int i=0;
         return haystack.indexOf(needle);
     }
 }/***

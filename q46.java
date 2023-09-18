@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class q46 {
     List<List<Integer>> lst=new ArrayList<List<Integer>>();
     //List of a List
     public void rec(List<Integer> ans,List<Integer> ls){

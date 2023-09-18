@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class q39 {
     List<List<Integer>> lst=new ArrayList<List<Integer>>();
     public void backtrack(int arr[],int sum,int target,int index,List<Integer> ls){
         if(sum==target){

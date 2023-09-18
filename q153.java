@@ -1,4 +1,4 @@
-class Solution {
+class q153 {
     public int findMin(int[] nums) {
         // int min=nums[0];
 

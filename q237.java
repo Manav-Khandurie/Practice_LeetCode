@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class q237 {
     public void deleteNode(ListNode head) {
         //[4,5,1,9]
         //   i j

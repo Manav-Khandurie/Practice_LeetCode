@@ -1,4 +1,4 @@
-class Solution {
+class q6 {
     public String convert(String s, int n) {
         if(n==1)
             return s;

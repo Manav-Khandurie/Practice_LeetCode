@@ -1,4 +1,4 @@
-class Solution {
+class q240 {
 
     public boolean binarysearch(int []ar,int target){
         int start=0,end=ar.length-1,mid=0;

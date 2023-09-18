@@ -1,4 +1,4 @@
-class Solution {
+class q151 {
     public String reverseWords(String s) {
         //s.trim();
         String word="",t="";
