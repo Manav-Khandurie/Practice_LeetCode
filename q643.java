@@ -4,7 +4,7 @@ class q643 {
         int i=0,j=0,n=nums.length;double sum=0.0;
         for(i=0;i<k;i++){
             sum+=nums[i];
-        }
+        } 
         //System.out.println(sum);
         double max=sum;
         for(j=i;j<n;j++){
