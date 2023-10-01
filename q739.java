@@ -3,7 +3,7 @@ import java.util.Stack;
 class q739 {
     public int[] dailyTemperatures(int[] arr) {
         int n=arr.length;
-        int ans[]=new intq9[n];
+        int ans[]=new int[n];
         Stack<Integer> stk=new Stack<>(); // store index
         // Do this similar to the next greater problem using Monotonic dec Stack
         stk.add(n-1);ans[n-1]=0;
