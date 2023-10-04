@@ -10,12 +10,12 @@ class Node {
 
 import java.util.Stack;
 
-class Solution {
+class q430 {
     class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
+        public int val;
+        public Node prev;
+        public Node next;
+        public Node child;
     };
     public Node flatten(Node head) {
         
