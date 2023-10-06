@@ -8,7 +8,7 @@ class q706 {
     }
     
     public void put(int key, int value) {
-        int u=0,val;
+        int u=0;
         for( int k : this.key){
 
             if(k==key){
