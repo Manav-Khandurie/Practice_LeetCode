@@ -1,21 +1,20 @@
-import java.util.Stack;
-
 class q121 {
     public int maxProfit(int[] arr) {
         // Maintain a monotonic inc stack
         int n=arr.length,j=n-1;
-        Stack<Integer> stk=new Stack<>();
-        int max=0,temp=0;
-        stk.add(arr[j]);
+        //Stack<Integer> stk=new Stack<>();
+        int buy=0,temp=0,sell=0;
+        sell=arr[n-1];
+        //stk.add(arr[j]);
         for(j=n-1;j>=0;j--){
-            temp=stk.peek()-arr[j];
-            if(temp>max)
-                max=temp;
-            if(arr[j]>stk.peek()){
-                stk.add(arr[j]);
+            temp=sell-arr[j];
+            if(temp>buy)
+                buy=temp;
+            if(arr[j]>sell){
+                sell=arr[j];
             }
         }
-        return max;
+        return buy;
         
     }
 }
@@ -46,11 +45,11 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 /*
 Runtime
 Details
-22ms
-Beats 10.02%of users with Java
+1ms
+Beats 99.95%of users with Java
 
 Memory
 Details
-60.51MB
-Beats 83.33%of users with Java
- */
+58.68MB
+Beats 93.81%of users with Java
+*/
