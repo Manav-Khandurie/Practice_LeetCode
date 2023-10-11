@@ -1,3 +1,4 @@
+
 class q70 {
     public int climbStairs(int n) {
         int a=1,b=1,sum=0;
