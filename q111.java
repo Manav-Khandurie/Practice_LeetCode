@@ -1,4 +1,4 @@
-class Solution {
+class q111 {
     public class TreeNode {
      int val;
      TreeNode left;
