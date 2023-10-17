@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+class q242 {
     public boolean isAnagram(String s, String t) {
        int n=s.length(),m=t.length();
        if(n!=m) return false;
