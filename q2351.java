@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 class q2351 {
     public char repeatedCharacter(String s) {
 
