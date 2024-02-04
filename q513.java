@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class q513 {
 
     public class TreeNode {
         int val;
