@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class q1493 {
     public int longestSubarray(int[] nums) {
         int max = Integer.MIN_VALUE;
         boolean flag = false;
