@@ -20,11 +20,11 @@ class q6 {
             }
         }
 
-        String ans="";
+        StringBuilder ans=new StringBuilder();
         for(int x=0;x<arr.length;x++){
             if(arr[x]!=null)
-                ans+=arr[x];
+                ans.append(arr[x]);
         }
-        return ans;
+        return ans.toString();
     }
 }
